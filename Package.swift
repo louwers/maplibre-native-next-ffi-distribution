@@ -12,8 +12,8 @@ import PackageDescription
 #if os(macOS)
   let native: Target = .binaryTarget(
     name: "MaplibreNativeC",
-    url: "https://github.com/louwers/maplibre-native-ffi/releases/download/maplibre-native-next-v0.0.6-d7c504e/MaplibreNativeC-next.xcframework.zip",
-    checksum: "e78e1d2b6022ea9100e2247ab18721a54170b4ccf07d6f8f90762abb29de80f8"
+    url: "https://github.com/louwers/maplibre-native-ffi/releases/download/maplibre-native-next-v0.0.6-3419a75/MaplibreNativeC-next.xcframework.zip",
+    checksum: "9e3f62e1322e5ddbda4daaaeb09a12525eb58cd0e53014d0de3803af688ad2d1"
   )
 #else
   let native: Target = .systemLibrary(
